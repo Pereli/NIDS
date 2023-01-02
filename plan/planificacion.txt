@@ -1,0 +1,19 @@
+(i) What are the predictor variables?
+
+(ii) What is the target variable? Is my target variable discrete or continuous?
+
+(iii) Should I use classification or regression analysis?
+
+(iv) How do I handle missing values in my dataset?
+
+(v) Should I use normalization or standardization when bringing variables to the same scale?
+
+(vi) Should I use Principal Component Analysis or not?
+
+(vii) How do I tune hyperparameters in my model?
+
+(viii) How do I evaluate my model to detect biases in the dataset?
+
+(ix) Should I use ensemble methods where I train using different models then perform an ensemble average, e.g. using classifiers such as SVM, KNN, Logistic Regression, then average over 3 models?
+
+(x) How do I select the final model?
