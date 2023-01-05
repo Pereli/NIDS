@@ -26,6 +26,29 @@ In our heatmap of correlation we can see the next correlations:
 
 
 
+The dataset has the column "attack_cat" in this project we are doing a binary classification. For the future, would be interesting trying to make a multiclass classificator to know which kind of thread are we predicting.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Feature description :
 
  	No.     Name 	        Type 	    Description
