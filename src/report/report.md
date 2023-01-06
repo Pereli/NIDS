@@ -22,7 +22,7 @@ The top feature importance variables were:
 
 - sbytes: Source to destination transaction bytes
 
-- ct_srv_dst: Number of connections between the same service (14) and destination address (3) within a certain period of time, which may indicate a pattern of communication that could be indicative of an attack or other malicious activity.
+- ct_srv_dst: Number of connections between the same service and destination address within a certain period of time, which may indicate a pattern of communication that could be indicative of an attack or other malicious activity.
 
 - rate: Packet sending speed
 
