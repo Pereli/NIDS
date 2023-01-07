@@ -5,16 +5,14 @@ This IDS uses machine learning to analyze network traffic and identify potential
 
 [Moustafa Nour and Jill Slay research](https://ieeexplore.ieee.org/abstract/document/7348942)
 
-# Models
 
+# Models & Evaluation
 Supervised models and neural networks was used in this project, aswell as feature importance for presentation purposes.
-
-# Evaluation
-We evaluated the IDS using precision, recall, f1-score and accuracy metrics, 
-Accuracies went from 0.92 to 0.99990 in the best model on the test set.
+evaluated using precision, recall, f1-score and accuracy metrics, 
+Accuracy went from 0.92 to 0.99990 in the best model on the test set.
 
 # Deployment
-The IDS can be used as a complementary feature of a firewall, detecting and alerting on any threats that the firewall may have missed. It is designed to be easily integrated into existing network security infrastructure and can handle high volumes of traffic.
+The IDS can be used as a complementary feature of a firewall, detecting and alerting on any threats that the firewall may have missed.
 
 # Conclusion
 Overall, this machine learning intrusion detection system project has provided valuable insights and experience. While the final accuracy of is impressive, I recognize that there are limitations to this project that could potentially impact its performance in a real-world scenario. For example, I did not have the opportunity to test the system in a production environment or evaluate it with data outside of my dataset. Moving forward, I plan to consider alternative approaches that may address these limitations and improve the robustness of the system.
