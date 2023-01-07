@@ -10,7 +10,7 @@ I tested several machine learning models in order to find the most effective app
 # Most Impactful Variables
 The top feature importance variables were:
 
-- ct_dst_src_ltm: Number of connections between the same source (1) and destination (3) address in the last 100 connections (26). This can be useful for detecting communication patterns that may indicate malicious activity.
+- ct_dst_src_ltm: Number of connections between the same source and destination address in the last 100 connections. This can be useful for detecting communication patterns that may indicate malicious activity.
 
 - sttl: Source to destination time to live value, a measure of the time a packet can remain in the network before being discarded. This could be useful for detecting packets that are attempting to remain in the network for longer than usual, which could be a sign of an attempt to infiltrate the network.
 
@@ -22,7 +22,7 @@ The top feature importance variables were:
 
 - sbytes: Source to destination transaction bytes
 
-- ct_srv_dst: Number of connections between the same service (14) and destination address (3) within a certain period of time, which may indicate a pattern of communication that could be indicative of an attack or other malicious activity.
+- ct_srv_dst: Number of connections between the same service and destination address within a certain period of time, which may indicate a pattern of communication that could be indicative of an attack or other malicious activity.
 
 - rate: Packet sending speed
 
