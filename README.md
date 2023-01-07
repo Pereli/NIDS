@@ -15,7 +15,7 @@ Accuracy went from 0.92 to 0.99990 in the best model on the test set.
 The IDS can be used as a complementary feature of a firewall, detecting and alerting on any threats that the firewall may have missed.
 
 # Conclusion
-Overall, this machine learning intrusion detection system project has provided valuable insights and experience. While the final accuracy of is good, I recognize that there are limitations to this project that could potentially impact its performance in a real-world scenario. For example, I did not have the opportunity to test the system in a production environment or evaluate it with data outside of my dataset. Moving forward, I plan to consider alternative approaches that may address these limitations and improve the robustness of the system.
+Overall, this machine learning intrusion detection system project has provided valuable insights and experience. While the final accuracy is good, I recognize that there are limitations to this project that could potentially impact its performance in a real-world scenario. For example, I did not have the opportunity to test the system in a production environment or evaluate it with data outside of my dataset. Moving forward, I plan to consider alternative approaches that may address these limitations and improve the robustness of the system.
 
 
 # References
