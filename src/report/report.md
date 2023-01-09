@@ -14,8 +14,6 @@ The top feature importance variables were:
 
 - ct_state_ttl: A combination of the "state" and "ttl" functions, indicating the number of connections in specific states (such as "INT") according to specific ranges of values for source/destination time to live. This could be useful for detecting connections in certain states that may be unusual or potentially malicious.
 
-- ct_dst_src_ltm: Number of connections between the same source and destination address in the last 100 connections. This can be useful for detecting communication patterns that may indicate malicious activity.
-
 - Rate: A sudden increase could indicate DoS attack.
 
 - Dload: High unusual dload could indicate someone is trying to send data as quickly as possible for example trying to install malware.
