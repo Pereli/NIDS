@@ -10,23 +10,17 @@ I tested several machine learning models in order to find the most effective app
 # Most Impactful Variables
 The top feature importance variables were:
 
-- ct_dst_src_ltm: Number of connections between the same source and destination address in the last 100 connections. This can be useful for detecting communication patterns that may indicate malicious activity.
-
 - sttl: Source to destination time to live value, a measure of the time a packet can remain in the network before being discarded. This could be useful for detecting packets that are attempting to remain in the network for longer than usual, which could be a sign of an attempt to infiltrate the network.
 
 - ct_state_ttl: A combination of the "state" and "ttl" functions, indicating the number of connections in specific states (such as "INT") according to specific ranges of values for source/destination time to live. This could be useful for detecting connections in certain states that may be unusual or potentially malicious.
 
-- smean: Mean of the flow packet size transmitted by the src
+- ct_dst_src_ltm: Number of connections between the same source and destination address in the last 100 connections. This can be useful for detecting communication patterns that may indicate malicious activity.
 
-- state_INT: The INT state refers to an interruption condition. This can occur when a connection is interrupted or terminated unexpectedly. It could indicate that an attempt has been made to interrupt or terminate a connection maliciously.
+- Rate: A sudden increase could indicate DoS attack.
 
-- sbytes: Source to destination transaction bytes
+- Dload: High unusual dload could indicate someone is trying to send data as quickly as possible
 
-- ct_srv_dst: Number of connections between the same service and destination address within a certain period of time, which may indicate a pattern of communication that could be indicative of an attack or other malicious activity.
-
-- rate: Packet sending speed
-
-- These features account for 49% of the total relevance of the data.
+- These features account for about half of the total relevance of the data.
 
 # Conclusions
 My results showed that machine learning is a powerful tool for detecting and preventing cybersecurity threats, and is increasingly relevant in today's digital landscape.
