@@ -18,7 +18,7 @@ The top feature importance variables were:
 
 - Rate: A sudden increase could indicate DoS attack.
 
-- Dload: High unusual dload could indicate someone is trying to send data as quickly as possible
+- Dload: High unusual dload could indicate someone is trying to send data as quickly as possible for example trying to install malware.
 
 - These features account for about half of the total relevance of the data.
 
