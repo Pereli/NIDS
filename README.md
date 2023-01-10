@@ -9,7 +9,7 @@ This IDS uses machine learning to analyze network traffic and identify potential
 # Models & Evaluation
 Supervised models and neural networks was used in this project, aswell as feature importance for presentation purposes.
 evaluated using precision, recall, f1-score and accuracy metrics, 
-Accuracy went from 0.84 to 0.96 in the best model on the test set.
+Accuracy went from 0.84 to 0.88 in the best model on the test set.
 
 # Deployment
 The IDS can be used as a complementary feature of a firewall, detecting and alerting on any threats that the firewall may have missed.
