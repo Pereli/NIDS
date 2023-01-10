@@ -11,7 +11,7 @@ Supervised models and neural networks was used in this project, aswell as featur
 
 # Evaluation
 We evaluated the IDS using precision, recall, f1-score and accuracy metrics, 
-Accuracies went from 0.92 to 0.99990 in the best model on the test set.
+Accuracies went from 0.84 to 0.88 in the best model on the test set.
 
 # Deployment
 The IDS can be used as a complementary feature of a firewall, detecting and alerting on any threats that the firewall may have missed.
